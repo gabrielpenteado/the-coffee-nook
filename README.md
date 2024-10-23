@@ -52,7 +52,7 @@
 </div>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/gabrielpenteado/the-coffee-nook/main/src/assets/images/the-coffee-nook.png"> 
+    <img src="https://raw.githubusercontent.com/gabrielpenteado/the-coffee-nook/refs/heads/main/src/assets/images/the-coffee-nook.png"> 
 </p>
 
 ### Built with
