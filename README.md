@@ -1,38 +1,25 @@
 <h1 align="center">
-   <strong>Watch Store</strong>
+   <strong>The Coffee Nook</strong>
 </h1>
 
 <h2 align="center">
- A modern watch store website built with React and Redux.
+ A coffee shop made with Angular.
 </h2>
 
 <div align="center">
   <img src="https://img.shields.io/github/license/gabrielpenteado/mydearpage?color=informational" alt="license"/>
 
-  <img src="https://img.shields.io/static/v1?label=yarn&message=v1.22.19&color=informational&style=flat-square" alt="yarn version">
+  <img src="https://img.shields.io/static/v1?label=yarn&message=v10.5.0&color=informational&style=flat-square" alt="npm version">
 
-  <img src="https://img.shields.io/static/v1?label=redux&message=v4.2.1&color=informational&style=flat-square" alt="yarn version">
-
-  <img src="https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=008000&up_message=online&url=https%3A%2F%2Fwatch-store-project.vercel.app" alt="website status">
+  <img src="https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=008000&up_message=online&url=https%3A%2F%2Fthe-coffee-nook.netlify.app" alt="website status">
 </div>
 
-## 📑 Contents
-
-- [About the project](#-about-the-project)
-  - Built with
-- [Getting Started](#-getting-started)
-  - Requirements
-  - Installation
-- [Contributions](#-contributions)
-- [License](#-license)
   <br>
 
-## ⌚ About the project
+## About the project
 
 <p align="justify"> 
-   A modern watch store website created with <strong>React</strong>, <strong>Redux</strong> and
-   <strong>TailwindCSS</strong>.
-   The user can add products to cart, increase or decrease the quantity; each purchase action has a notification created with <em>react-toastify<em>. 
+   <strong>The Coffee Nook</strong> is a coffee shop where you can easily add different types and quantities of coffee to your cart, as well as remove items or adjust their quantities. Enjoy a seamless shopping experience tailored for coffee lovers!
 </p>
 
 <div align="center">
@@ -50,13 +37,13 @@
     <tbody>
       <tr>
         <td>
-          <a href="https://www.youtube.com/watch?v=XFqpPZEtLVk">
+          <a href="https://www.youtube.com/watch?v=_E0Qui-OdK4">
             <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
           </a>
         </td>  
         <td>
-          <a href="https://watch-store-project.vercel.app">
-            <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+          <a href="https://the-coffee-nook.netlify.app">
+            <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
           </a>
         </td>  
       </tr>
@@ -65,53 +52,25 @@
 </div>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/watchstore.png"> 
+    <img src="https://raw.githubusercontent.com/gabrielpenteado/the-coffee-nook/main/src/assets/images/the-coffee-nook.png"> 
 </p>
-
-<div align="center">
-  <table>
-    <thead>
-      <tr>
-        <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/print1.jpg">Screenshot-1</a>
-        </th>
-        <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/print2.jpg">Screenshot-2</a>
-        </th>
-        <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/print3.jpg">Screenshot-3</a>
-        </th>
-        <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/print4.jpg">Screenshot-4</a>
-        </th>   
-      </tr>
-    </thead>
-  </table>
-</div>
 
 ### Built with
 
-![vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![react](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
-![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![RxJS](https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff&style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge)
 
-## 🚀 Getting started
+## Getting started
 
-To start using <strong>Watch Store</strong> follow the instructions below.
+To start using <strong>The Coffee Nook</strong> follow the instructions below.
 
 ### Requirements
 
-- yarn (^1.22.19)
-- react(^18.2.0)
-- [vite](https://vitejs.dev/guide/)
-- [redux](https://redux.js.org/introduction/getting-started)
-- [redux-toolkit](https://redux-toolkit.js.org/introduction/getting-started)
-- [react-router-dom](https://reactrouter.com/en/main)
-- [react-toastify](https://fkhadra.github.io/react-toastify/introduction)
-- [phosphor-icons](https://phosphoricons.com)
+- npm (^10.5.0)
+- Angular(^18)
+- RxJS(~7.8.0)
 
 ### Browsers Support
 
@@ -123,15 +82,15 @@ To start using <strong>Watch Store</strong> follow the instructions below.
 ### Installation
 
 1. Clone the repository<br>
-   `git clone https://github.com/gabrielpenteado/watch-store`
+   `git clone https://github.com/gabrielpenteado/the-coffee-nook`
 
 2. Access the project folder in the terminal
 
 3. Install all packages dependencies<br>
-   `yarn install`
+   `npm install`
 
 4. Start using<br>
-   `yarn dev`
+   `npm start`
    <br>
 
 ## 🤝 Contributions
@@ -141,7 +100,7 @@ The foundation of the open source community are the contributions, them inspire 
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/gabrielpenteado/watch-store/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/gabrielpenteado/the-coffee-nook/blob/main/LICENSE.md) file for details.
 <br>
 <br>
 
