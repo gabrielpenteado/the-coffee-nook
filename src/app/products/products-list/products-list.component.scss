@@ -1,0 +1,57 @@
+.parent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+mat-card {
+  width: 300px;
+  margin: 15px;
+
+  &:hover {
+    z-index: 1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.product-details {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media-grid {
+  text-align: center;
+  overflow: hidden;
+}
+
+.product-figure {
+  background-color: white;
+  height: 245px;
+}
+
+.product-badge {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  font-weight: bold;
+  border-top: 30px solid #309635;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-left: 30px solid #309635;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  span {
+    position: absolute;
+    transform: rotate(-45deg);
+    top: -18px;
+    left: -25px;
+    white-space: nowrap;
+  }
+}
+
+.line-through {
+  text-decoration: line-through;
+}
